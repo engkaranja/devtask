@@ -13,7 +13,7 @@
  */
 class Utils {
 
-    //put your code here
+//put your code here
     public static function logThis($LEVEL, $logThis) {
 
         $logFile = "";
@@ -97,14 +97,15 @@ class Utils {
                     self::logThis("INFO", "B2C RESPONSE---" . print_r($curl_response, true));
 
                     $responseArray = json_decode($curl_response, true);
+                } catch (Exception $ex) {
 
-                    
-
-            } catch (Exception $ex) {
+                    self::logThis("INFO", "Error " . $ex->getMessage());
+                }
+            }
+        } catch (Exception $ex) {
 
             self::logThis("INFO", "Error " . $ex->getMessage());
         }
-    
-        }
+    }
+
 }
-    
