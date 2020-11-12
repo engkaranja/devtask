@@ -81,4 +81,8 @@ Success
 }
 
 
+It should then consume Daraja B2C api
+
+Then handle Daraja Response Appropriately
+
 
