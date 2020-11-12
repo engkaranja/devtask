@@ -11,7 +11,6 @@ Requirements
 1.	Design the solution above showing the various components and reasons for their choice. Including the high level & low level solution architecture and Activity Diagram.
 2.	Develop the above solution and the accompanying unit tests
 3.	Implement an appropriate security and authentication mechanism on your solution
-4.	build the micro-service to a container image and once completed check-in the code in the following link( to be provided during session).
 
 Implementation Notes
 
