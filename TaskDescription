@@ -16,4 +16,4 @@ Implementation Notes
 
 We want to encourage creativity in this technical assessment, however we also want to understand your coding style and skills (exception handling, logging, Object Oriented Analysis and design)
 
-
+Your application should receive a JSON request in the format below:
