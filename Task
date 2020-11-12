@@ -1,0 +1,20 @@
+Java Programming Task
+
+Background
+
+Mavuno Farmers Union  is a farmers cooperative union with over 400K farmers registered in their system and who make daily tea deliveries to their collection centres. The farmers are then paid at the end of month based on their output. To simplify their processes and avoid manual reconciliation Mavuno Farmer Union has contracted KCB Bank to make disbursement payments to their members at the end of the month from their bank account. The farmer’s union will send instructions to the bank and the amounts of money shall be disbursed to the farmers account either to the farmers KCB Bank account or MPESA Wallet. 
+
+Question 
+You have been tasked by the head of solutions department to develop a solution that will be used to disburse the money to MPESA wallets after receiving the request from the bank’s core-banking system. Sample JSON request from core-banking is attached as well as the sample request to MPESA third party system. 
+
+Requirements 
+1.	Design the solution above showing the various components and reasons for their choice. Including the high level & low level solution architecture and Activity Diagram.
+2.	Develop the above solution and the accompanying unit tests
+3.	Implement an appropriate security and authentication mechanism on your solution
+4.	build the micro-service to a container image and once completed check-in the code in the following link( to be provided during session).
+
+Implementation Notes
+
+We want to encourage creativity in this technical assessment, however we also want to understand your coding style and skills (exception handling, logging, Object Oriented Analysis and design)
+
+
