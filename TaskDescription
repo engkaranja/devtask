@@ -17,3 +17,68 @@ Implementation Notes
 We want to encourage creativity in this technical assessment, however we also want to understand your coding style and skills (exception handling, logging, Object Oriented Analysis and design)
 
 Your application should receive a JSON request in the format below:
+
+REQUEST FROM CORE BANKING
+-------------------------
+
+
+{
+    "header": {
+        "messageID": "12345666",
+        "featureCode": "201",
+        "featureName": "FinancialTransactions",
+        "serviceCode": "2001",
+        "serviceName": "FundsTransfer",
+        "serviceSubCategory":"Account",
+        "minorServiceVersion": "1.0",
+        "channelCode": "01",
+        "channelName": "atm",
+        "routeCode": "01",  
+        "timeStamp": "22222",
+        "serviceMode": "sync",  
+        "subscribeEvents": "1",
+        "callBackURL": ""  
+    },
+   "requestPayload": {
+     
+      "transactionInfo": {
+         "companyCode": "KE0010001",
+         "transactionType": "Payment Notification",
+         "creditAccountNumber": "",
+"credintMobileNumber":"",
+         "transactionAmount": "",
+         "transactionReference": "",
+         "currencyCode": "",
+          "amountCurrency": "",
+          "dateTime": "",
+          "dateString": "",
+      }
+   }
+}
+
+
+RESPONSE
+
+Success
+
+{
+    "header": {
+        "messageID": "12345666",
+        "conversationID": "123123131312",
+        "targetSystemID": "123123131312",
+        "routeCode": "01",  
+        "statusCode":"0",
+        "statusDescription":"Success",
+        "statusMessage":"TRANACTION FOR TYPE ACZW SUCCESSFUL"
+     },
+   "responsePayload": {
+       
+      "transactionInfo": {
+         "transactionId": "FT20114XHFQF",
+         "falconBalance":"10.00"
+      }
+   }
+}
+
+
+
