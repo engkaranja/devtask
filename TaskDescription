@@ -83,6 +83,8 @@ Success
 
 It should then consume Daraja B2C api
 
+https://developer.safaricom.co.ke/b2c/apis/post/paymentrequest
+
 Then handle Daraja Response Appropriately
 
 
